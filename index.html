@@ -1,0 +1,156 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Blog Artist</title>
+    
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/ f90068558c.js" crossorigin="anonymous"></script>
+        <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500&display=swap" rel="stylesheet"/> 
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h3 class="title"><a href="index.html">Universal Art</a></h3>
+                <nav>
+                <a href="tutorial.html">Tutorial</a>
+                <a href="contacts.html">Contacts</a>
+                <a href="about.html">About</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section id="jumbotron">
+                <div class="jumbotron">
+                <h1
+                    class="jumbotron-title"
+                    onmouseover="changeTitle(this)"
+                    onmouseout="changeTitleBack(this)"
+                >
+                It is important to know How to Draw.
+                <br />
+                Before you Start Drawing
+                </h1>
+                <div class="header-flex">
+                    <div>
+                    <h2 class="jumbotron-text">
+                        This blog will show you the fun and easiest way to draw!
+                    </h2>
+                    <div class="mini-text-flex">
+                        <p class="mini-text">
+                            You are not limited by what you can and can’t do. Try it step-by-step, anywhere, anytime, without worries.
+                            <br />
+                            Let’s start, don’t be doubt
+                        </p>
+                    </div>
+                    </div>
+                    <div>
+                    <img
+                        onmouseover="changeImage(this)"
+                        onmouseout="changeImageBack(this)"
+                        class="jumbotron-img"
+                        src="https://advance2-exam.netlify.app/assets/img-header1.png"
+                        alt="gambar"
+                        width="auto"
+                        height="300"
+                    />
+                    </div>
+                </div>
+                </div>
+            </section>
+            <div class="main-content">
+                <aside>
+                <div class="profile">
+                    <h3 class="aside-title">Caitlin Halderman</h3>
+                    <img
+                    class="profile-picture"
+                    src="https://advance2-exam.netlify.app/assets/profile-photo.jpg"
+                    alt="Caitlin"
+                    width="150px"
+                    height="auto"
+                    />
+                    <div class="toggle">
+                    <button class="btn" id="green">
+                        <i class="fa fa-thumbs-up fa-lg"></i>
+                    </button>
+                    <button class="btn" id="red">
+                        <i class="fa fa-thumbs-down fa-lg"></i>
+                    </button>
+                    </div>
+                </div>
+                </aside>
+
+                <div class="content">
+                <article id="my-project">
+                    <h3 class="article-title">Drawing</h3>
+                    <div class="project-container">
+                    <div class="project">
+                        <img
+                        src="https://advance2-exam.netlify.app/assets/drawing1.jpg"
+                        width="300px"
+                        height="210px"
+                        />
+                        <h4 class="project-title">Professional Character</h4>
+                        <p class="project-description">
+                        We will learn how to draw a professional character combined with colorful textures using digital art.
+                        </p>
+                    </div>
+                    <div class="project">
+                        <img
+                        src="https://advance2-exam.netlify.app/assets/drawing2.jpg"
+                        width="300px"
+                        height="210px"
+                        />
+                        <h4 class="project-title">Objects</h4>
+                        <p class="project-description">
+                        Drawing objects may look easier, but how do we make it look real?
+                        </p>
+                    </div>
+                    </div>
+                    <div class="project-container">
+                    <div class="project">
+                        <img
+                        src="https://advance2-exam.netlify.app/assets/drawing3.jpg"
+                        width="300px"
+                        height="210px"
+                        />
+                        <h4 class="project-title">Colorful Painting</h4>
+                        <p class="project-description">
+                        Not only digital art tutorial, but we also provide watercolor-based tutorials.
+                        </p>
+                    </div>
+                    <div class="project">
+                        <img
+                        src="https://advance2-exam.netlify.app/assets/drawing4.jpg"
+                        width="300px"
+                        height="210px"
+                        />
+                        <h4 class="project-title">Monochrome Painting</h4>
+                        <p class="project-description">
+                            Sometimes it becomes boring to apply so many colors. So, let's have a different look sometimes with black and white.
+                        </p>
+                    </div>
+                    </div>
+                </article>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="main-footer">
+                <h3 class="info-top">Caitlin At Universal Art</h3>
+                <div class="social-media">
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fas fa-envelope"></i>
+                </div>
+                <p class="info-center">
+                Copyright &copy; 2021. Universal Art. All rights reserved.
+                </p>
+            </div>
+            </footer>
+    </body>
+    <script src="main.js"></script>
+</html>
